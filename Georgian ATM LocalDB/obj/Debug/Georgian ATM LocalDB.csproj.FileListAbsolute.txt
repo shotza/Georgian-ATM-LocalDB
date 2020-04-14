@@ -1,0 +1,9 @@
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\bin\Debug\Georgian ATM LocalDB.exe.config
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\bin\Debug\Georgian ATM LocalDB.exe
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\bin\Debug\Georgian ATM LocalDB.pdb
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian ATM LocalDB.csprojAssemblyReference.cache
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian_ATM_LocalDB.Form1.resources
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian_ATM_LocalDB.Properties.Resources.resources
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian ATM LocalDB.csproj.GenerateResource.cache
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian ATM LocalDB.exe
+C:\Users\shabzhandadze\source\repos\Georgian ATM LocalDB\Georgian ATM LocalDB\obj\Debug\Georgian ATM LocalDB.pdb
