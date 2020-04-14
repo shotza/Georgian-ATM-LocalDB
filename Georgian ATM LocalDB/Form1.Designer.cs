@@ -67,13 +67,14 @@
             this.txtNumberOfYears = new System.Windows.Forms.TextBox();
             this.txtInterestRate = new System.Windows.Forms.TextBox();
             this.txtAmountOfLoan = new System.Windows.Forms.TextBox();
+            this.lblMonthlyPayment = new System.Windows.Forms.Label();
             this.lblTotalPayment = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblMonthlyPayment = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -478,6 +479,16 @@
             this.txtAmountOfLoan.Size = new System.Drawing.Size(86, 24);
             this.txtAmountOfLoan.TabIndex = 1;
             // 
+            // lblMonthlyPayment
+            // 
+            this.lblMonthlyPayment.AutoSize = true;
+            this.lblMonthlyPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonthlyPayment.Location = new System.Drawing.Point(206, 172);
+            this.lblMonthlyPayment.Name = "lblMonthlyPayment";
+            this.lblMonthlyPayment.Size = new System.Drawing.Size(0, 18);
+            this.lblMonthlyPayment.TabIndex = 0;
+            this.lblMonthlyPayment.Click += new System.EventHandler(this.label5_Click);
+            // 
             // lblTotalPayment
             // 
             this.lblTotalPayment.AutoSize = true;
@@ -543,21 +554,21 @@
             this.label1.Text = "სესხის ოდენობა";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // lblMonthlyPayment
+            // label6
             // 
-            this.lblMonthlyPayment.AutoSize = true;
-            this.lblMonthlyPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonthlyPayment.Location = new System.Drawing.Point(206, 172);
-            this.lblMonthlyPayment.Name = "lblMonthlyPayment";
-            this.lblMonthlyPayment.Size = new System.Drawing.Size(0, 18);
-            this.lblMonthlyPayment.TabIndex = 0;
-            this.lblMonthlyPayment.Click += new System.EventHandler(this.label5_Click);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(971, 1);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(159, 18);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "by Shota Abzhandadze";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1145, 444);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox5);
@@ -578,6 +589,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -628,6 +640,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTotalPayment;
         private System.Windows.Forms.Label lblMonthlyPayment;
+        private System.Windows.Forms.Label label6;
     }
 }
 
